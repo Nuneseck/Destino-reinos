@@ -1,0 +1,26 @@
+import random
+
+def roll_dice(num_faces):
+    roll = random.randint(1, num_faces)
+    return roll
+
+# Prompt the user for the number of rolls
+num_rolls = int(input("How many times do you want to roll the 6-sided dice? "))
+
+# Roll the 6-sided dice the specified number of times
+for i in range(num_rolls):
+    result = roll_dice(6)
+
+    # Display different messages based on the rolled number
+    if result == 1:
+        print("You rolled a 1!")
+    elif result == 2:
+        print("You rolled a 2!")
+    elif result == 3:
+        print("You rolled a 3!")
+    elif result == 4:
+        print("You rolled a 4!")
+    elif result == 5:
+        print("You rolled a 5!")
+    elif result == 6:
+        print("You rolled a 6!")
