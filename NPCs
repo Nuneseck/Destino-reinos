@@ -1,0 +1,62 @@
+import random
+import tkinter as tk
+import tkinter.ttk as ttk
+import pygubu
+
+class Application:
+    def __init__(self, master):
+        # Load the GUI from the .ui file
+        self.builder = pygubu.Builder()
+        self.builder.add_from_file('gui.ui')
+
+        # Get references to the widgets
+        self.main_frame = self.builder.get_object('main_frame')
+        self.option_combobox = self.builder.get_object('option_combobox')
+        self.num_times_entry = self.builder.get_object('num_times_entry')
+        self.generate_button = self.builder.get_object('generate_button')
+        self.output_text = self.builder.get_object('output_text')
+
+        # Configure event handlers
+        self.builder.connect_callbacks(self)
+
+        # Initialize the GUI
+        self.builder.get_object('main_frame').master.title('Option Generator')
+        self.builder.get_object('main_frame').master.resizable(False, False)
+
+    def on_generate_button_clicked(self):
+        # Get the selected option
+        option = self.option_combobox.get()
+
+        # Check if the chosen option is valid
+        if option in options:
+            sub_options = options[option]
+
+            # Get the number of times to generate the sub-options
+            num_times = int(self.num_times_entry.get())
+
+            # Generate the sub-options
+            generated_sub_options = random.choices(sub_options, k=num_times)
+
+            # Clear the output text widget
+            self.output_text.delete('1.0', tk.END)
+
+            # Display the generated sub-options in the output text widget
+            for sub_option in generated_sub_options:
+                self.output_text.insert(tk.END, sub_option + '\n')
+        else:
+            self.output_text.delete('1.0', tk.END)
+            self.output_text.insert(tk.END, 'Invalid option. Please choose A, B, or C.\n')
+
+    def run(self):
+        self.main_frame.mainloop()
+
+if __name__ == '__main__':
+    options = {
+        "A": ["A1", "A2", "A3"],
+        "B": ["B1", "B2", "B3"],
+        "C": ["C1", "C2", "C3"]
+    }
+    
+    root = tk.Tk()
+    app = Application(root)
+    app.run()
