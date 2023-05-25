@@ -75,36 +75,36 @@
       "number": "7",
       "name": "Tesouro natural",
       "options": [
-        "G1",
-        "A2",
-        "A3",
-        "A4",
-        "A5",
-        "A6"
+        "Recebe 5d10 tibares de platina",
+        "1d4 equipamentos adquire matéria-prima",
+        "Alquímicos ou similares recebem +3CD ou +1 dado adicional",
+        "Ganha 10d8 tibares de platina",
+        "Role tabela de tesouros padrão ND igual ao seu nível",
+        "Recebe 1d6 elixir da vida ou essências de mana menor (nível 1-5), maior (6-10), pura (11-16) ou suprema (17-20)"
       ]
     },
     {
       "number": "8",
       "name": "Descoberta",
         "options": [
-        "H1",
-        "A2",
-        "A3",
-        "A4",
-        "A5",
-        "A6"
+       " Adquire acesso a um local secreto ou oculto",
+       " Recebe um bônus de +2 em alguma perícia por 1d6 meses",
+       " Recebe um talento aleatório",
+       " Efeito adverso seu ou de aliado é desfeito",
+       " Aumenta em 3PMs permanentes ou +1 uso de uma habilidade diária",
+       " Aumenta em 1d4 um dos atributos por 2d4 semanas"
       ]
     },
     {
       "number": "9",
       "name": "Renascimento religioso",
       "options": [
-        "I1",
-        "A2",
-        "A3",
-        "A4",
-        "A5",
-        "A6"
+        "Adquire o talento devoto",
+        "Fica permanentemente sob efeito de uma magia divina aleatória. Magia 1°(personagem nível 1-5), 2° (6-10), 3° (11-16) ou 4° (17-20)",
+        "Diminui 1 atributo em 1d6 por 2d4 semanas, amaldiçoado por um deus",
+        "Rola 1d4 e em 1d4 um aliado é revivido ou revive",
+        "Recupera-se de um ferimento permanente",
+        "Adquire um item esotérico"
       ]
     },
     {
