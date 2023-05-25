@@ -1,0 +1,158 @@
+[
+    {
+      "number": "1",
+      "name": "Catástrofe",
+      "options": [
+        "Morte",
+        "Perde todos os bens",
+        "Perde 1d4 níveis",
+        "Perde 1 nível",
+        "Perde 1 habilidade racial ou talento",
+        "Perde 1d4 de 1d4 atributos"
+      ]
+    },
+    {
+      "number": "2",
+      "name": "Turbulência política",
+      "options": [
+        "Aliado próximo morre se tirar 4 no d4",
+        "É exilado do reino e perde acesso a recursos locais",
+        "Perde a confiança das pessoas e recebe -10 em perícias originalmente relacionadas a Carisma dentro do reino",
+        "Perde todos os tibares",
+        "Perde um item mágico valioso",
+        "É alvo de represálias por parte de outros grupos, recebendo -2 na CA e Resistências contra ataques e ameaças vindas desses grupos"
+      ]
+    },
+    {
+      "number": "3",
+      "name": "Terror mágico",
+      "options": [
+        "Não pode usar habilidades de classe por 1d6 semanas",
+        "Perde 5 PMs para cada 5 níveis ou 1 de todas habilidades diárias por 2d4 semanas",
+        "Perde o acesso a uma escola de magia específica ou uma habilidade de classe por 1d4 meses",
+        "Amaldiçoado - Role tabela de maldições",
+        "Sofre -2 de Resistência contra magias e efeitos mágicos por 2d4 semanas",
+        "Troque um atributo físico por um mental"
+      ]
+    },
+    {
+      "number": "4",
+      "name": "Praga",
+      "options": [
+        "Tem sua energia vital afetada e perde 10 pontos de Vida máxima para cada 5 níveis",
+        "Reduz permanentemente 1 atributo aleatório em 1d6",
+        "Sofre -4 em todas as resistências por 1d6 semanas",
+        "Perde 10 pontos de uma resistência que possua. Se possuir imunidade essa se torna 50 apenas",
+        "Contrai uma doença – Role tabela de doenças",
+        "Sofre uma deformidade física permanente"
+      ]
+    },
+    {
+      "number": "5",
+      "name": "Intriga",
+      "options": [
+       " Marcado como vilão e caçado no Reinado inteiro",
+       " Marcado como traidor e procurado no reino apenas",
+       " É alvo de conspiração que lhe ameaça. Role 1d20 e em caso de 1 morre",
+       " Sofre um ferimento permanente - Tabela",
+       " É alvo de chantagem e extorsão por parte de um grupo influente, sendo obrigado a pagar uma quantia significativa de dinheiro regularmente para evitar retaliação perde 50% de seus bens",
+       " Tem sua reputação manchada e é alvo de boatos e difamação, recebendo -3 em perícias originalmente relacionadas a carisma por toda Ramnor"
+      ]
+    },
+    {
+      "number": "6",
+      "name": "Criaturas míticas",
+      "options": [
+       " Sofre uma transformação involuntária causada por uma criatura, perdendo uma de suas habilidades raciais",
+       " É amaldiçoado com uma fobia intensa de um tipo de criatura específica, sofrendo 1 nível negativo sempre que estiver próximo delas",
+       " É enfeitiçado por uma criatura mítica e passa a agir contra seus próprios interesses ou dos aliados, sendo controlado temporariamente",
+       " Contrai uma doença mágica rara causada por uma criatura mítica, envelhecendo 2d6 anos",
+       " Tem sua mente afetada por uma criatura, experimentando visões e pesadelos perturbadores que afetam sua sanidade mental – fica fatigado por 1d6 semanas",
+       " Tem seus bens e propriedades destruídos por uma criatura durante um ataque, perdendo metade de seus itens"
+      ]
+    },
+    {
+      "number": "7",
+      "name": "Tesouro natural",
+      "options": [
+        "G1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6"
+      ]
+    },
+    {
+      "number": "8",
+      "name": "Descoberta",
+        "options": [
+        "H1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6"
+      ]
+    },
+    {
+      "number": "9",
+      "name": "Renascimento religioso",
+      "options": [
+        "I1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6"
+      ]
+    },
+    {
+      "number": "10",
+      "name": "Boom comercial",
+      "options": [
+        "J1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6"
+      ]
+    },
+    {
+      "number": "11",
+      "name": "Heróis",
+      "options": [
+        "K1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6"
+      ]
+    },
+    {
+      "number": "12",
+      "name": "Avanço no conhecimento",
+      "options": [
+        "L1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6"
+      ]
+    },
+    {
+      "number": "13",
+      "name": "Muita fortuna",
+      "options": [
+        "L1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6"
+      ]
+    }
+]

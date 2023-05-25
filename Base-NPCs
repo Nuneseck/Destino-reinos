@@ -1,0 +1,31 @@
+import random
+import json
+
+# Read the options from the JSON file
+with open('options', encoding='utf-8') as file:
+    options = json.load(file)
+
+# Display the available options
+print("Opções:")
+for option in options:
+    print(option["number"], "-", option["name"])
+
+# Prompt the user for their choice
+choice = input("Escolha a opção: ")
+
+# Find the chosen option in the options list
+chosen_option = next((option for option in options if option["number"] == choice), None)
+
+# Check if the chosen option is valid
+if chosen_option:
+    sub_options = chosen_option["options"]
+    
+    # Prompt the user for the number of times to generate sub-options
+    num_times = int(input("Para quantos NPCs? "))
+
+    # Generate and display the sub-options
+    for i in range(1, num_times + 1):
+        random_sub_option = random.choice(sub_options)
+        print("Destino NPC {}:".format(i), random_sub_option)
+else:
+    print("Opção inválida.")
