@@ -1,6 +1,27 @@
 import random
 
-kingdoms = ["Bielefeld", "Yuden", "Deheon", "Callistia", "União Purpura", "Ahlen", "Doherimm", "Khubar", "Wynnla", "Fortuna", "Pondsmânia", "Sckharshantallas ", "Collen", "Lamnor", "Zakharov", "Namalkah", "Hongari e Portsmouth", "Sallistick", "Lomatubar e Tollon", "Sambúrdia e Ghondriann", "Tyrondir", "Tapista", "Petrynia"]
+kingdoms = [
+       "Bielefeld", 
+       "Yuden", 
+       "Deheon", 
+       "Callistia", 
+       "União Purpura", 
+       "Doherimm", 
+       "Khubar", 
+       "Wynnla", 
+       "Fortuna e Petrynia", 
+       "Pondsmânia", 
+       "Sckharshantallas ", 
+       "Collen e Ahlen", 
+       "Tyrondir e Lamnor", 
+       "Zakharov", 
+       "Namalkah", 
+       "Hongari e Portsmouth", 
+       "Sallistick", 
+       "Lomatubar e Tollon", 
+       "Sambúrdia e Ghondriann", 
+       "Tapista", 
+       ]
 
 def roll_dice():
     roll = random.randint(1, 20)

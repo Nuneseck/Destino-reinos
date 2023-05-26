@@ -111,48 +111,48 @@
       "number": "10",
       "name": "Boom comercial",
       "options": [
-        "J1",
-        "A2",
-        "A3",
-        "A4",
-        "A5",
-        "A6"
+        "Consegue o bônus da uma tabela de tesouros ND = nível + 5.",
+        "Ganha dois itens +2",
+        "Consegue um item qualquer +4.",
+        "Consegue um item qualquer +6.",
+        "Consegue um item qualquer +8.",
+        "Consegue um item qualquer +10."
       ]
     },
     {
       "number": "11",
       "name": "Heróis",
       "options": [
-        "K1",
-        "A2",
-        "A3",
-        "A4",
-        "A5",
-        "A6"
+        "Aumenta em +2 um atributo a escolha",
+        "Recebe permanentemente +5 em uma perícia a sua escolha",
+        "Sobe 1 nível",
+        "Recebe uma habilidade racial de outra raça aleatória.",
+        "Aumenta em +2 um atributo a escolha",
+        "Aumenta rank na guilda ou adquire um relativo ao nível."
       ]
     },
     {
       "number": "12",
       "name": "Avanço no conhecimento",
       "options": [
-        "L1",
-        "A2",
-        "A3",
-        "A4",
-        "A5",
-        "A6"
+       " Adquire o talento ambiental relativo ao reino.",
+       " Recebe a habilidade anti-criatura permanente.",
+       " Aumenta todos os atributos em 1d4.",
+       " Fica permanentemente sob efeito de uma magia arcana benéfica aleatória. Magia 1-2° (personagem nível 1-5), 3-4° (6-10), 5° (11-16) ou 6° (17-20).",
+       " Aprende +2 magias ou ganha +1 uso de todas as habilidades.",
+       " Recebe +2 talentos à escolha."
       ]
     },
     {
       "number": "13",
       "name": "Muita fortuna",
       "options": [
-        "L1",
-        "A2",
-        "A3",
-        "A4",
-        "A5",
-        "A6"
+        "Revive ou revive aliado",
+        "Adquire um modelo de ND 2 ou menos",
+        "Sobe 1d4 níveis",
+        "Acha um item mágico lendário (artefato)",
+        "Adquire 100d20 moedas de platina",
+        "Sobe 3d3 níveis"
       ]
     }
 ]
