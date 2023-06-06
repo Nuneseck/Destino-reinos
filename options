@@ -8,19 +8,23 @@
         "Perde 1d4 níveis",
         "Perde 1 nível",
         "Perde 1 habilidade racial ou talento",
-        "Perde 1d4 de 1d4 atributos"
+        "Perde 1d4 de 1d4 atributos",
+        "Fujão: vai para o reino vizinho em pior condição",
+        "Fujão: vai para o reino vizinho em pior condição"
       ]
     },
     {
       "number": "2",
       "name": "Turbulência política",
       "options": [
-        "Aliado próximo morre se tirar 4 no d4",
+        "Aliado próximo morre se tirar 1-2 no d6",
         "É exilado do reino e perde acesso a recursos locais",
         "Perde a confiança das pessoas e recebe -10 em perícias originalmente relacionadas a Carisma dentro do reino",
         "Perde todos os tibares",
         "Perde um item mágico valioso",
-        "É alvo de represálias por parte de outros grupos, recebendo -2 na CA e Resistências contra ataques e ameaças vindas desses grupos"
+        "É alvo de represálias por parte de outros grupos, recebendo -2 na CA e Resistências contra ataques e ameaças vindas desses grupos",
+        "Pária: vai para um reino vizinho aleatório",
+        "Pária: vai para um reino vizinho aleatório"
       ]
     },
     {
@@ -32,7 +36,8 @@
         "Perde o acesso a uma escola de magia específica ou uma habilidade de classe por 1d4 meses",
         "Amaldiçoado - Role tabela de maldições",
         "Sofre -2 de Resistência contra magias e efeitos mágicos por 2d4 semanas",
-        "Troque um atributo físico por um mental"
+        "Troque um atributo físico por um mental aleatório",
+        "Cagão: o medo lhe faz ir para o reino mais próximo"
       ]
     },
     {
@@ -44,7 +49,9 @@
         "Sofre -4 em todas as resistências por 1d6 semanas",
         "Perde 10 pontos de uma resistência que possua. Se possuir imunidade essa se torna 50 apenas",
         "Contrai uma doença – Role tabela de doenças",
-        "Sofre uma deformidade física permanente"
+        "Sofre uma deformidade física permanente",
+        "Sobrevivente: em tempos difíceis se mover é ideal - vá para um reino de seu interesse",
+        "Sobrevivente: em tempos difíceis se mover é ideal - vá para um reino de seu interesse"
       ]
     },
     {
@@ -56,7 +63,8 @@
        " É alvo de conspiração que lhe ameaça. Role 1d20 e em caso de 1 morre",
        " Sofre um ferimento permanente - Tabela",
        " É alvo de chantagem e extorsão por parte de um grupo influente, sendo obrigado a pagar uma quantia significativa de dinheiro regularmente para evitar retaliação perde 50% de seus bens",
-       " Tem sua reputação manchada e é alvo de boatos e difamação, recebendo -3 em perícias originalmente relacionadas a carisma por toda Ramnor"
+       " Tem sua reputação manchada e é alvo de boatos e difamação, recebendo -3 em perícias originalmente relacionadas a carisma por toda Ramnor",
+       " Escorraçado para um reino qualquer"
       ]
     },
     {
@@ -68,7 +76,8 @@
        " É enfeitiçado por uma criatura mítica e passa a agir contra seus próprios interesses ou dos aliados, sendo controlado temporariamente",
        " Contrai uma doença mágica rara causada por uma criatura mítica, envelhecendo 2d6 anos",
        " Tem sua mente afetada por uma criatura, experimentando visões e pesadelos perturbadores que afetam sua sanidade mental – fica fatigado por 1d6 semanas",
-       " Tem seus bens e propriedades destruídos por uma criatura durante um ataque, perdendo metade de seus itens"
+       " Tem seus bens e propriedades destruídos por uma criatura durante um ataque, perdendo metade de seus itens",
+       " Mandado para o reino mais próspero em volta"
       ]
     },
     {
@@ -76,10 +85,10 @@
       "name": "Tesouro natural",
       "options": [
         "Recebe 5d10 tibares de platina",
-        "1d4 equipamentos adquire matéria-prima",
+        "1 equipamentos adquire matéria-prima",
         "Alquímicos ou similares recebem +3CD ou +1 dado adicional",
         "Ganha 10d8 tibares de platina",
-        "Role tabela de tesouros padrão ND igual ao seu nível",
+        "Role tabela de tesouros padrão ND igual ao seu nível-4",
         "Recebe 1d6 elixir da vida ou essências de mana menor (nível 1-5), maior (6-10), pura (11-16) ou suprema (17-20)"
       ]
     },
@@ -90,9 +99,12 @@
        " Adquire acesso a um local secreto ou oculto",
        " Recebe um bônus de +2 em alguma perícia por 1d6 meses",
        " Recebe um talento aleatório",
+       " Recebe um talento aleatório",
+       " Efeito adverso seu ou de aliado é desfeito",
        " Efeito adverso seu ou de aliado é desfeito",
        " Aumenta em 3PMs permanentes ou +1 uso de uma habilidade diária",
-       " Aumenta em 1d4 um dos atributos por 2d4 semanas"
+       " Aumenta em 1d4 um dos atributos por 2d4 semanas",
+       " Explorador: vai para um reino vizinho qualquer"
       ]
     },
     {
@@ -102,9 +114,13 @@
         "Adquire o talento devoto",
         "Fica permanentemente sob efeito de uma magia divina aleatória. Magia 1°(personagem nível 1-5), 2° (6-10), 3° (11-16) ou 4° (17-20)",
         "Diminui 1 atributo em 1d6 por 2d4 semanas, amaldiçoado por um deus",
-        "Rola 1d4 e em 1d4 um aliado é revivido ou revive",
+        "Rola 1d4 e em 4 um aliado é revivido ou revive",
+        "Rola 1d4 e em 4 um aliado é revivido ou revive",
         "Recupera-se de um ferimento permanente",
-        "Adquire um item esotérico"
+        "Recupera-se de um ferimento permanente",
+        "Adquire um item esotérico",
+        "Ateu: se afasta do reino",
+        "Ateu: se afasta do reino"
       ]
     },
     {
@@ -113,10 +129,15 @@
       "options": [
         "Consegue o bônus da uma tabela de tesouros ND = nível + 5.",
         "Ganha dois itens +2",
+        "Ganha dois itens +2",
+        "Ganha dois itens +2",
+        "Consegue um item qualquer +4.",
         "Consegue um item qualquer +4.",
         "Consegue um item qualquer +6.",
         "Consegue um item qualquer +8.",
-        "Consegue um item qualquer +10."
+        "Consegue um item qualquer +10.",
+        "Comerciante nato: vai para o reino com melhor rolagem",
+        "Comerciante nato: vai para o reino com melhor rolagem"
       ]
     },
     {
@@ -124,11 +145,16 @@
       "name": "Heróis",
       "options": [
         "Aumenta em +2 um atributo a escolha",
+        "Aumenta em +2 um atributo a escolha",
         "Recebe permanentemente +5 em uma perícia a sua escolha",
         "Sobe 1 nível",
+        "Sobe 1 nível",
+        "Sobe 1 nível",
         "Recebe uma habilidade racial de outra raça aleatória.",
-        "Aumenta em +2 um atributo a escolha",
-        "Aumenta rank na guilda ou adquire um relativo ao nível."
+        "Aumenta 1 todos os atributos",
+        "Aumenta rank na guilda ou adquire um relativo ao nível.",
+        "Profeta: vai para o reino onde os PJ estão atualmente",
+        "Profeta: vai para o reino onde os PJ estão atualmente"
       ]
     },
     {
@@ -140,7 +166,9 @@
        " Aumenta todos os atributos em 1d4.",
        " Fica permanentemente sob efeito de uma magia arcana benéfica aleatória. Magia 1-2° (personagem nível 1-5), 3-4° (6-10), 5° (11-16) ou 6° (17-20).",
        " Aprende +2 magias ou ganha +1 uso de todas as habilidades.",
-       " Recebe +2 talentos à escolha."
+       " Recebe +2 talentos à escolha.",
+       "Pesquisador: vai para um reino afetado por 'Terror Mágico' ou ' 'Criaturas míticas' ",
+       "Pesquisador: vai para um reino afetado por 'Terror Mágico' ou ' 'Criaturas míticas' "
       ]
     },
     {
@@ -148,11 +176,14 @@
       "name": "Muita fortuna",
       "options": [
         "Revive ou revive aliado",
+        "Revive ou revive aliado",
         "Adquire um modelo de ND 2 ou menos",
+        "Sobe 1d4 níveis",
         "Sobe 1d4 níveis",
         "Acha um item mágico lendário (artefato)",
         "Adquire 100d20 moedas de platina",
-        "Sobe 3d3 níveis"
+        "Sobe 3d3 níveis",
+        "Auxilio divino: automaticamente se encontra com os PJ "
       ]
     }
 ]
